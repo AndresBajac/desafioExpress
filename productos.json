@@ -1,0 +1,6 @@
+[
+    {"producto":"pera","tipo":"fruta","precio":150,"id":1},
+    {"producto":"manzana","tipo":"fruta","precio":170,"id":2},
+    {"producto":"puerro","tipo":"verdura","precio":50,"id":3},
+    {"producto":"tomate","tipo":"verdura","precio":200,"id":4}
+]

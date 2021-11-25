@@ -1,0 +1,22 @@
+{
+  "name": "desafioexpress",
+  "version": "1.0.0",
+  "description": "Desafío entregable n°3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresBajac/desafioExpress.git"
+  },
+  "author": "Bajac Andrés Alejandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresBajac/desafioExpress/issues"
+  },
+  "homepage": "https://github.com/AndresBajac/desafioExpress#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
