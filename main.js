@@ -15,8 +15,8 @@ const server = app.listen(process.env.PORT || 8080 , ()=>{
 })
 app.get('/productos',(req, res) =>{
     try{
-        const elementos = file.getAll()
-        res.send(` Los elementos del archivo son ${JSON.stringify(elementos)}`)
+        const elements = file.getAll()
+        res.send(` Los elementos del archivo son ${JSON.stringify(elements)}`)
     }
     catch(err){
         res.send(`Ocurrio un error al obtener los elementos: ${err}`)
