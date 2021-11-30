@@ -2,7 +2,7 @@ const express = require('express')
 const Container = require('./contenedor')
 
 const app = express()
-const file = new Container('./products.json')
+const file = new Container('./productos.json')
 file.init()
 
 const server = app.listen(process.env.PORT || 8080 , ()=>{
